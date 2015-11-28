@@ -14,10 +14,10 @@ var App = React.createClass(
       }
       return {
         favorites: favorites,
-        currentAddress: 'New York, New York',
+        currentAddress: 'New York, NY',
         mapCoordinates: {
           lat: 40.773051,
-          long: -73.974086
+          lng: -73.974086
         }
       };
     },
